@@ -1,0 +1,26 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+button {
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  outline: none;
+}
